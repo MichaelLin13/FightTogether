@@ -96,10 +96,10 @@ public class PlayerButtonManager : MonoBehaviour
                     BackSecondPic = 1;
                     CharacterCreat = Sprite.Create(allTex2d[BackSecondPic], new Rect(0, 0, allTex2d[BackSecondPic].width, allTex2d[BackSecondPic].height), Vector2.zero);
                     thisPlayer.transform.GetChild(0).GetComponent<Image>().sprite = CharacterCreat;
-
+                    //aa
                 }
             }
-		}
+		}        
     }
     public void Prsee_Attack()
     {
